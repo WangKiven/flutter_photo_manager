@@ -134,6 +134,10 @@ android {
         targetCompatibility = version
     }
 
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8//getJavaVersion()
+    }
+
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
