@@ -129,13 +129,13 @@ android {
     }
 
     compileOptions {
-        def version = JavaVersion.VERSION_1_8//getJavaVersion()
+        def version = getJavaVersion()
         sourceCompatibility = version
         targetCompatibility = version
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8//getJavaVersion()
+        jvmTarget = getJavaVersion()
     }
 
     defaultConfig {
