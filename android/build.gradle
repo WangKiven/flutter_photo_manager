@@ -129,7 +129,7 @@ android {
     }
 
     compileOptions {
-        def version = getJavaVersion()
+        def version = JavaVersion.VERSION_1_8//getJavaVersion()
         sourceCompatibility = version
         targetCompatibility = version
     }
